@@ -544,7 +544,7 @@ section .location {
 }
 
 .level.intermediate .bar::after {
-  background: #ffdf1f;
+  background: #ccffcc;
   width: 5em;
 }
 
@@ -748,6 +748,9 @@ section .location {
     padding: 0;
   }
   .highlights {
+    margin: 0.5em 0 0 0;
+  }
+  .technologies {
     margin: 0.5em 0 0 0;
   }
   ul.keywords::before {
