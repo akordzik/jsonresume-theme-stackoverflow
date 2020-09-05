@@ -71,6 +71,13 @@
           {{/each}}
         </ul>
         {{/if}}
+        {{#if technologies.length}}
+        <ul class="keywords">
+				  {{#each technologies}}
+				    <li>{{.}}</li>
+				  {{/each}}
+        </ul>
+        {{/if}}
     	</div>
     </section>
     {{/each}}
